@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.nav-link {
+  float: left;
+}
+
+li.nav-link a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.nav-link a:hover {
+  background-color: #111;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-item-left {
+  flex: 30%;
+}
+
+.flex-item-center {
+  flex: 30%;
+}
+
+.flex-item-right {
+  flex: 30%;
+}

@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  text-decoration: none
+  text-decoration: none;
 }
 
 ul.nav {
@@ -115,4 +115,8 @@ button {
 
 .footer {
   padding-left: 10rem;
+}
+a:visited {
+  text-decoration: none;
+  color: white;
 }

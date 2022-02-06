@@ -4,64 +4,75 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/product.info_style.css" />
     <title>Demo</title>
   </head>
   <body>
-    <nav>
-      <a href="index.html"> Car Hub </a>
-      <a href="products.html">Products</a>
-      <a href="product.info.html">Product Info</a>
-      <a href="demo.form.html">Book a Demo</a>
-      <a href="faq.html">FAQ</a>
-      <a href="">About Us</a>
-    </nav>
+    <ul class="nav">
+      <li class="nav-link"><a href="index.html"> Car Hub </a></li>
+      <li class="nav-link"><a href="products.html">Products</a></li>
+      <li class="nav-link"><a href="product.info.html">Product Info</a></li>
+      <li class="nav-link"><a href="demo.form.html">Book a Demo</a></li>
+      <li class="nav-link"><a href="faq.html">FAQ</a></li>
+      <li class="nav-link"><a href="">About Us</a></li>
+    </ul>
     <br />
     <section id="product-info">
-      <div>
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr6cDGx33MNBecyI34m9s5Uq1ErDJ6G-DXQA&usqp=CAU"
-        />
-        <h2>Ford Mustang</h2>
-        <h3>Some product subhead</h3>
-        <p>
-          Product description goes here. Lorem ipsum dolor sit amet,
-          consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
-          massa. Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-          eu, pretium quis, sem. Nulla consequat massa quis enim.
-        </p>
-        <p>
-          Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In
-          enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
-          dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
-        </p>
-        <button><a href="demo.form.html">Get Demo</a></button>
+      <div class="container">
+        <div class="flex-item-left"></div>
+        <div class="flex-item-right">
+          <h2 class="flex-right-items" style="font-size: 2.5rem">
+            Ford Mustang
+          </h2>
+          <h3
+            class="flex-right-items"
+            style="font-size: 1.5rem; padding: 1rem 2rem"
+          >
+            Some product subhead
+          </h3>
+          <p class="flex-right-items">
+            Product description goes here. Lorem ipsum dolor sit amet,
+            consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+            montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+            pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+          </p>
+          <p class="flex-right-items" style="padding-bottom: 1rem">
+            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+            In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+            Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras
+            dapibus.
+          </p>
+          <button><a href="demo.form.html">Get Demo</a></button>
+        </div>
       </div>
     </section>
     <br />
     <br />
     <br />
     <section id="product-specs">
-      <div>
+      <div class="container">
+        <div class="table-item-left">
         <table>
           <tr>
-            <th>Parameter</th>
+            <th style="width: 50%">Parameter</th>
             <th>Specification</th>
           </tr>
           <tr>
             <td>ARAI Mileage</td>
-            <td>13.0 kmpl</td>
+            <td>13.0 kmpl</i></td>
           </tr>
           <tr>
             <td>Fuel Type</td>
-            <td>Petrol</td>
+            <td>Petrol</i></td>
           </tr>
           <tr>
             <td>No. of cylinder</td>
-            <td>8</td>
+            <td>8</i></td>
           </tr>
         </table>
-        <br />
+      </div>
+      <div class="table-item-right">
         <table>
           <tr>
             <th>Parameter</th>
@@ -81,13 +92,15 @@
           </tr>
         </table>
       </div>
+    </div>
     </section>
+    <ul class="nav footer">
+      <li style="margin-left: 40rem" class="nav-link">
+        <a href="">Instagram</a>
+      </li>
+      <li class="nav-link"><a href="">Facebook</a></li>
+      <li class="nav-link"><a href="">Github</a></li>
+      <li class="nav-link"><a href="">Mail Us</a></li>
+    </ul>
   </body>
-  <footer>
-    <h2>Get in touch with us</h2>
-    <a href="">Instagram</a>
-    <a href="">Facebook</a>
-    <a href="">Github</a>
-    <a href="">Mail Us</a>
-  </footer>
 </html>
