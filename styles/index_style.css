@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.nav-link {
+  float: left;
+}
+
+li.nav-link a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.nav-link a:hover {
+  background-color: #111;
+}
+
+.imgbox {
+  background-image: url("../assets/bg.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: white;
+}
+
+.main-text {
+  padding: 10% 5% 0;
+  font-size: 5rem;
+}
+
+.description {
+  font-size: 2rem;
+  padding: 0 5%;
+  color: white;
+}
+
+button {
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 5%;
+}
+
+#latest-collection {
+  background-image: url("../assets/bg1.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: white;
+}
+
+#backshape .wrapper {
+  display: block;
+  float: left;
+  width: 100%;
+}
+.product1 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr6cDGx33MNBecyI34m9s5Uq1ErDJ6G-DXQA&usqp=CAU%22");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  width: 29%;
+  height: 50vh;
+  margin: 2%;
+}
+
+.product2 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgM_lu5SIDeJn7Hko8qgNAchAOoP7YBrUz_g&usqp=CAU");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  width: 29%;
+  height: 50vh;
+  margin: 2%;
+}
+
+.product3 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrYSbR9-DqJnLNaDwsLsgvz9mpjYuNVXz9LQ&usqp=CAU");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  width: 29%;
+  height: 50vh;
+  margin: 2%;
+}
+
+.shop-button {
+  padding-left: 10rem;
+}
+
+.footer {
+  padding-left: 10rem;
+}
