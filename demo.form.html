@@ -4,59 +4,68 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FAQ</title>
+    <link rel="stylesheet" href="./styles/demo.form_style.css" />
+    <title>Form</title>
   </head>
   <body>
-    <nav>
-      <a href="index.html"> Car Hub </a>
-      <a href="products.html">Products</a>
-      <a href="product.info.html">Product Info</a>
-      <a href="demo.form.html">Book a Demo</a>
-      <a href="faq.html">FAQ</a>
-      <a href="">About Us</a>
-    </nav>
-    <br />
-    <br />
-    <br />
+    <ul class="nav">
+      <li class="nav-link"><a href="index.html"> Car Hub </a></li>
+      <li class="nav-link"><a href="products.html">Products</a></li>
+      <li class="nav-link"><a href="product.info.html">Product Info</a></li>
+      <li class="nav-link"><a href="demo.form.html">Book a Demo</a></li>
+      <li class="nav-link"><a href="faq.html">FAQ</a></li>
+      <li class="nav-link"><a href="">About Us</a></li>
+    </ul>
     <section id="book-demo">
+      <div>
+        <span style="font-size: 2rem">Get in touch</span>
+        <br /><br />
+        <form action="/action_page.php">
+          <span style="font-size: 1.5rem">Basic details:</span>
+          <br />
+          <br />
+          <label for="name">Name</label>
+          <input type="text" value="name" />
+          <br />
+          <label for="address">Address</label>
+          <input type="text" value="address" />
+          <br />
+          <label for="age">Age</label>
+          <input type="number" value="0" />
+          <br />
+          <label for="gender">Gender</label>
+          <input type="text" value="gender" />
+          <br />
+          <label for="product">Product</label>
+          <input type="text" value="product" />
+
+          <label for="color">Color</label>
+          <select id="color" name="color">
+            <option value="red">Red</option>
+            <option value="black">Black</option>
+            <option value="yellow">Yellow</option>
+          </select>
+          <span style="font-size: 1.5rem">Demo details:</span>
+          <br />
+          <br />
+          <label for="date">Date</label>
+          <input type="date" value="date" />
+          <label for="time">time</label>
+          <input type="time" value="time" />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
       <form>
-        <label for="name">Name</label>
-        <input type="text" value="name" />
         <br />
-        <label for="address">Address</label>
-        <input type="text" value="address" />
-        <br />
-        <label for="age">Age</label>
-        <input type="number" value="age" />
-        <br />
-        <label for="gender">Gender</label>
-        <input type="number" value="gender" />
-        <br />
-        <label for="product">Product</label>
-        <input type="number" value="product" />
-        <br />
-        Color
-        <br />
-        <input type="radio" id="red" name="car_color" value="red" />
-        <label for="red">Red</label><br />
-        <input type="radio" id="black" name="car_color" value="black" />
-        <label for="black">Black</label><br />
-        <input type="radio" id="yellow" name="car_color" value="yellow" />
-        <label for="yellow">Yellow</label><br />
-        Demo
-        <br />
-        <label for="date">Date</label>
-        <input type="date" value="date" />
-        <label for="time">time</label>
-        <input type="time" value="time" />
       </form>
     </section>
+    <ul class="nav footer">
+      <li style="margin-left: 40rem" class="nav-link">
+        <a href="">Instagram</a>
+      </li>
+      <li class="nav-link"><a href="">Facebook</a></li>
+      <li class="nav-link"><a href="">Github</a></li>
+      <li class="nav-link"><a href="">Mail Us</a></li>
+    </ul>
   </body>
-  <footer>
-    <h2>Get in touch with us</h2>
-    <a href="">Instagram</a>
-    <a href="">Facebook</a>
-    <a href="">Github</a>
-    <a href="">Mail Us</a>
-  </footer>
 </html>
